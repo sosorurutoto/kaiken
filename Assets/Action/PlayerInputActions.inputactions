@@ -23,6 +23,24 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
+                },
+                {
+                    "name": "weakAttack",
+                    "type": "Button",
+                    "id": "ff1aa15a-8c75-408b-9fbb-4dcf32e23239",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "strongAttack",
+                    "type": "Button",
+                    "id": "474d23c7-7413-41ee-ae8b-ec15f7ad6b80",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -113,6 +131,28 @@
                     "action": "Move",
                     "isComposite": false,
                     "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "517dc57c-0e1f-482f-a203-176ad97fdaf6",
+                    "path": "<Keyboard>/z",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "weakAttack",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "178b0bb6-f92c-4c17-80a4-4e91a9c693b2",
+                    "path": "<Keyboard>/x",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "strongAttack",
+                    "isComposite": false,
+                    "isPartOfComposite": false
                 }
             ]
         }
